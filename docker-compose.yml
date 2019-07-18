@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    command: ["go", "run", "server.go"]
+    volumes:
+      - .:/go/src/app
+    ports:
+      - "3000:3000"

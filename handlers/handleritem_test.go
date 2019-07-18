@@ -17,12 +17,6 @@ import (
 	"github.com/maszuari/apinovi/db"
 )
 
-type ItemModelStub struct{}
-
-func (im *ItemModelStub) Checkout(cart modelitem.Cart) float64{
-	return 99
-} 
-
 func TestCheckoutEx1(t *testing.T){
 
 	str := `{"items":["VOUCHER","TSHIRT","MUG"]}`

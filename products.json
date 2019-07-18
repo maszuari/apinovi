@@ -1,0 +1,31 @@
+{
+    "Products":[
+        {
+            "code":"VOUCHER",
+            "name":"NoviCap Voucher",
+            "price": 5,
+            "2for1":true,
+            "bulkpurchase":false,
+            "bulkpurchaseprice": 0,
+            "bulkpurchasemin":0
+        },
+        {
+            "code":"TSHIRT",
+            "name":"NoviCap T-Shirt",
+            "price": 20,
+            "2for1":false,
+            "bulkpurchase":true,
+            "bulkpurchaseprice":19,
+            "bulkpurchasemin":3
+        },
+        {
+            "code":"MUG",
+            "name":"NoviCap Coffee Mug",
+            "price": 7.5,
+            "2for1":false,
+            "bulkpurchase":false,
+            "bulkpurchaseprice":0,
+            "bulkpurchasemin":0
+        }
+    ]
+}

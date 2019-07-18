@@ -28,7 +28,7 @@ func NewItemModel(list db.Products) *ItemModel {
 	return &ItemModel{Products: list}
 }
 
-func (im ItemModel) Checkout(cart Cart) float64 {
+func (im *ItemModel) Checkout(cart Cart) float64 {
 
 	bk := new(BookKeeper)
 	bk.Tmp = make(map[string]float64)
